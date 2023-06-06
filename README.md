@@ -33,7 +33,7 @@ For copying data from your local machine to the cluster, you can use scp or [Win
 
 ---
 
-## File systems & data transfer
+## Set up Anaconda environment
 
 There are anaconda installations provided as modules on HPC. List available python modules:
 ```bash
@@ -48,11 +48,13 @@ Start anaconda prompt:
 source ~/.bashrc
 ```
 
-In order to use conda environments on HPC, you need to create a .profile and .condarc file. Please follow [these instructions](https://hpc.fau.de/systems-services/documentation-instructions/special-applications-and-tips-tricks/python-and-jupyter/#:~:text=quantumtools%20on%20woody.-,Conda%20environment,-In%20order%20to). Now you can create or import your environment.
+In order to use conda environments on HPC, you need to create a `.profile` and `.condarc` file. Please follow [these instructions](https://hpc.fau.de/systems-services/documentation-instructions/special-applications-and-tips-tricks/python-and-jupyter/#:~:text=quantumtools%20on%20woody.-,Conda%20environment,-In%20order%20to). Now you can create or import your environment.
 If you have trouble setting up an environment with TensorFlow and CUDA, this worked for me (with [python 3.8](https://www.python.org/downloads/release/python-380/)):
 ```bash
-conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0 pip install --upgrade pip
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0 
+pip install --upgrade pip
 pip install tensorflow==2.9.2
+
 ```
 
 In my bash script, I had to add this line (after activating the environment):
@@ -106,4 +108,5 @@ This project is licensed under [Apache-2.0 License](LICENSE).
 
 ## Acknowledgments
 This repository is based on the work of Marion Dörrich from [ANKI LAB](https://anki.xyz/), her efforts are greatly appreciated.
+
 If you find this project useful, please consider giving it a ⭐️!
