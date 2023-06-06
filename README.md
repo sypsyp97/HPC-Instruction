@@ -61,7 +61,7 @@ Remember, successful data management and transfer are vital aspects of working e
 ---
 
 
-## Configuring Anaconda Environment on HPC
+## Configuring [Anaconda](https://www.anaconda.com/) Environment on HPC
 
 Anaconda distributions are conveniently pre-installed as modules on HPC. To set up your Anaconda environment, follow the steps below:
 
