@@ -117,6 +117,32 @@ You can also monitor jobs using the [ClusterCockpit](https://hpc.fau.de/systems-
 
 ---
 
+## Usage Example
+1. Connected to [TinyGPU](https://hpc.fau.de/systems-services/documentation-instructions/clusters/tinygpu-cluster/):
+```bash
+ssh USERNAME@cshpc.rrze.fau.de
+ssh USERNAME@tinyx.nhr.fau.de
+```
+2. Locate the `$HOME` directory.:
+```bash
+cd $HOME
+```
+3. Clone this repository to the HPC:
+```bash
+git clone https://github.com/sypsyp97/HPC-Instruction.git
+```
+4. Submit the job:
+```bash
+sbatch.tinygpu test.sh
+```
+5. You will find the result at `$HOME/output`:
+```bash
+cd output
+nano test-JOB_ID.out
+```
+
+---
+
 ## Links:
 
 - [Getting started](https://hpc.fau.de/systems-services/documentation-instructions/getting-started/)
