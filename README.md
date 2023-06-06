@@ -1,7 +1,7 @@
 # FAU-HPC-Instruction
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=plastic)](https://opensource.org/licenses/Apache-2.0)
-
+[![Contributions](https://img.shields.io/badge/Contributions-Contact%20Maintainer-yellow?style=plastic&logo=github&logoColor=white)](https://github.com/sypsyp97/FAU-HPC-Instruction/issues)
 
 Welcome to the `FAU-HPC-Instruction` repository. 
 
@@ -18,6 +18,7 @@ Welcome to the `FAU-HPC-Instruction` repository.
 - [Links](#links)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
 ---
 
@@ -135,4 +136,12 @@ This project is licensed under [Apache-2.0 License](LICENSE).
 ## Acknowledgments
 
 This repository is based on the work of Marion Dörrich from [ANKI LAB](https://anki.xyz/), her efforts are greatly appreciated.
+
+## Contact
+
+For further assistance or any questions, feel free to open an issue on this GitHub repository or reach out to the maintainers.
+
+**Yipeng Sun**
+- Github: [@sypsyp97](https://github.com/sypsyp97)
+- Email: [yipeng.sun@fau.de](mailto:yipeng.sun@fau.de)
 
