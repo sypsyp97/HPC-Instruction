@@ -17,6 +17,7 @@ Welcome to the `FAU-HPC-Instruction` repository.
   - [Cancel a job](#cancel-a-job)
 - [Links](#links)
 - [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
