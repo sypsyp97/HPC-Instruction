@@ -10,59 +10,65 @@ This repository is designed to serve as a resource for High-Performance Computin
 
 ---
 
-## SSH Connection
+## Establishing an SSH Connection
 
-If you are outside of the university network, connect to dialogserver (or alternatively use VPN/PuTTY):
+If you are connecting from outside the university network, you can establish an SSH connection to the dialogserver. Alternatively, you can make use of VPN or PuTTY.
 
+Use the following command to connect to the dialogserver, replacing `USERNAME` with your actual username:
 ```bash
 ssh USERNAME@cshpc.rrze.fau.de
 ```
-Then connect either to the TinyGPU or Alex cluster:
+To connect to either the TinyGPU or Alex cluster, use the respective commands:
 ```bash
 ssh USERNAME@tinyx.nhr.fau.de
 ssh USERNAME@alex.nhr.fau.de
 ```
-To exit the SSH connection, use `Ctrl+D`.
+
+To terminate the SSH connection, simply use the shortcut `Ctrl+D`.
 
 ---
 
-## File systems & data transfer
+## Managing Files and Data Transfer on Clusters
 
-All clusters use Linux operating systems. The standard directory at login is called `$HOME`. Here you can store important files e.g. your python script. You can store larger files at `$WORK`.
-For copying data from your local machine to the cluster, you can use scp or [WinSCP](https://winscp.net/eng/download.php) on Windows. If you are using a MAC, yo can use [Cyberduck](https://cyberduck.io/).
+All our clusters operate on Linux-based systems. Upon login, you'll be directed to the default directory, known as `$HOME`. This directory is ideal for storing smaller, essential files such as Python scripts. For larger files, you are advised to use the `$WORK` directory. 
+
+When it comes to transferring data between your local machine and the cluster, various methods can be employed. 
+
+- For command line operations, `scp` (secure copy) can be utilized across all platforms.
+
+- Windows users can take advantage of [WinSCP](https://winscp.net/eng/download.php), a GUI-based file manager and transfer client.
+
+- For Mac users, [Cyberduck](https://cyberduck.io/) provides a reliable and user-friendly interface for file transfers.
+
+Remember, successful data management and transfer are vital aspects of working efficiently with our Linux clusters. Happy coding! 
 
 ---
 
-## Set up Anaconda environment
 
-There are anaconda installations provided as modules on HPC. List available python modules:
-```bash
-module avail python
-```
-Next, you can load the python module e.g.
-```bash
-module load python/3.9-anaconda
-```
-Start anaconda prompt:
-```bash
-source ~/.bashrc
-```
+## Configuring Anaconda Environment on HPC
 
-In order to use conda environments on HPC, you need to create a `.profile` and `.condarc` file. Please follow [these instructions](https://hpc.fau.de/systems-services/documentation-instructions/special-applications-and-tips-tricks/python-and-jupyter/#:~:text=quantumtools%20on%20woody.-,Conda%20environment,-In%20order%20to). Now you can create or import your environment.
-If you have trouble setting up an environment with TensorFlow and CUDA, this worked for me (with [python 3.8](https://www.python.org/downloads/release/python-380/)):
+Anaconda distributions are conveniently pre-installed as modules on HPC. To set up your Anaconda environment, follow the steps below:
+
+1. **List available Python modules:**
+Use the command `module avail python` to display the Python modules available for use.
+
+2. **Load the desired Python module:**
+Use the command `module load python/3.9-anaconda` to load the appropriate Python module.
+
+3. **Start the Anaconda prompt:**
+Use the command `source ~/.bashrc` to start the Anaconda prompt.
+
+To effectively use conda environments on HPC, you'll need to create a `.profile` and `.condarc` file. For guidance on how to accomplish this, please refer to [these instructions](https://hpc.fau.de/systems-services/documentation-instructions/special-applications-and-tips-tricks/python-and-jupyter/#:~:text=quantumtools%20on%20woody.-,Conda%20environment,-In%20order%20to). Now, you can proceed to create or import your desired environment.
+
+In case you encounter difficulties setting up an environment with TensorFlow and CUDA, the following commands could be helpful: 
 ```bash
-conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0 
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 pip install --upgrade pip
 pip install tensorflow==2.9.2
-
 ```
 
-In my bash script, I had to add this line (after activating the environment):
-```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
-```
+In your bash script, you may need to add the line `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/` after activating the environment.
 
----
 
 ## Bash script
 
@@ -72,6 +78,8 @@ We also have an illustrative example of a bash script in the project's repositor
 
 ### Submit a job
 
+To submit a job to the Alex cluster or TinyGPU, use the respective commands:
+
 Alex cluster:
 ```bash
 sbatch test.sh
@@ -80,10 +88,7 @@ TinyGPU:
 ```bash
 sbatch.tinygpu test.sh
 ```
-See queue of jobs (ST (State): R = Running, PD = Pending, CG = Completing):
-```bash
-squeue
-```
+You can monitor the status of your jobs in the queue with the `squeue` command. In the ST (State) column of the output, `R` stands for Running, `PD` for Pending, and `CG` for Completing.
 
 ### Cancel a job:
 ```bash
