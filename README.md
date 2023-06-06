@@ -15,6 +15,7 @@ Welcome to the `HPC-Instruction` repository.
 - [Bash script](#bash-script)
   - [Submit a job](#submit-a-job)
   - [Cancel a job](#cancel-a-job)
+- [Usage Example](#usage-example)
 - [Links](#links)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -118,7 +119,8 @@ You can also monitor jobs using the [ClusterCockpit](https://hpc.fau.de/systems-
 ---
 
 ## Usage Example
-1. Connected to [TinyGPU](https://hpc.fau.de/systems-services/documentation-instructions/clusters/tinygpu-cluster/):
+
+1. Connect to [TinyGPU](https://hpc.fau.de/systems-services/documentation-instructions/clusters/tinygpu-cluster/):
 ```bash
 ssh USERNAME@cshpc.rrze.fau.de
 ssh USERNAME@tinyx.nhr.fau.de
@@ -131,14 +133,22 @@ cd $HOME
 ```bash
 git clone https://github.com/sypsyp97/HPC-Instruction.git
 ```
-4. Submit the job:
+4. Submit Your Job to the Cluster
 ```bash
+cd HPC-Instruction
 sbatch.tinygpu test.sh
 ```
-5. You will find the result at `$HOME/output`:
+5. You can find the output of your job in the `output` directory within `$HOME`. To view the result of the job, navigate to the `output` directory and open the output file associated with your job. Replace `JOB_ID` with the ID of your job:
 ```bash
 cd output
 nano test-JOB_ID.out
+```
+
+6. If an error occurs during the job execution, you can view the error messages in the error file associated with your job:
+
+```bash
+cd output
+nano test-JOB_ID.err
 ```
 
 ---
