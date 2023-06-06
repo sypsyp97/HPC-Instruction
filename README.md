@@ -120,6 +120,9 @@ You can also monitor jobs using the [ClusterCockpit](https://hpc.fau.de/systems-
 
 - [Getting started](https://hpc.fau.de/systems-services/documentation-instructions/getting-started/)
 - [Python](https://hpc.fau.de/systems-services/documentation-instructions/special-applications-and-tips-tricks/python-and-jupyter/)
+- [HPC in a nutshell - Part 1](https://www.rrze.fau.de/files/2019/05/2019-04-26_HPC_in_a_Nutshell1.pdf)
+- [HPC in a nutshell - Part 2](https://www.rrze.fau.de/files/2019/05/2019-05-09_HPC_in_a_Nutshell2-2.pdf)
+
 
 ---
 
