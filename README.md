@@ -66,8 +66,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
 
 ## Bash script
 
-See: https://hpc.fau.de/systems-services/documentation-instructions/batch-processing/
-[Example](test.sh)
+For more information on how to create and optimize bash scripts for batch processing, please refer to the comprehensive guide provided by HPC on their official website. The guide offers clear instructions, examples, and good practices for batch processing. You can access this resource here: [FAU HPC Batch Processing Documentation](https://hpc.fau.de/systems-services/documentation-instructions/batch-processing/)
+
+We also have an illustrative example of a bash script in the project's repository. This example provides a basic structure that can be adjusted according to your specific needs. You can find and review this example here: [Example Bash Script](test.sh)
 
 ### Submit a job
 
@@ -107,6 +108,6 @@ This project is licensed under [Apache-2.0 License](LICENSE).
 ---
 
 ## Acknowledgments
+
 This repository is based on the work of Marion Dörrich from [ANKI LAB](https://anki.xyz/), her efforts are greatly appreciated.
 
-If you find this project useful, please consider giving it a ⭐️!
