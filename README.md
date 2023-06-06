@@ -94,7 +94,7 @@ We also have an illustrative example of a bash script in the project's repositor
 
 ### Submit a job
 
-To submit a job to the Alex cluster or TinyGPU, use the respective commands:
+To submit a job to the [Alex cluster](https://hpc.fau.de/systems-services/documentation-instructions/clusters/alex-cluster/) or [TinyGPU](https://hpc.fau.de/systems-services/documentation-instructions/clusters/tinygpu-cluster/), use the respective commands:
 
 [Alex cluster](https://hpc.fau.de/systems-services/documentation-instructions/clusters/alex-cluster/):
 ```bash
