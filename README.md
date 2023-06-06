@@ -7,6 +7,7 @@ Welcome to the `FAU-HPC-Instruction` repository.
 
 ---
 
+## Table of Contents
 - [Description](#description)
 - [Establishing an SSH Connection](#establishing-an-ssh-connection)
 - [Managing Files and Data Transfer on Clusters](#managing-files-and-data-transfer-on-clusters)
@@ -16,6 +17,8 @@ Welcome to the `FAU-HPC-Instruction` repository.
   - [Cancel a job](#cancel-a-job)
 - [Links](#links)
 - [License](#license)
+
+---
 
 ## Description
 
