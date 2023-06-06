@@ -13,8 +13,6 @@ Welcome to the `HPC-Instruction` repository.
 - [Managing Files and Data Transfer on Clusters](#managing-files-and-data-transfer-on-clusters)
 - [Configuring Anaconda Environment on HPC](#configuring-anaconda-environment-on-hpc)
 - [Bash script](#bash-script)
-  - [Submit a job](#submit-a-job)
-  - [Cancel a job](#cancel-a-job)
 - [Usage Example](#usage-example)
 - [Links](#links)
 - [License](#license)
