@@ -34,7 +34,7 @@ Use the following command to connect to the dialogserver, replacing `USERNAME` w
 ```bash
 ssh USERNAME@cshpc.rrze.fau.de
 ```
-To connect to either the TinyGPU or Alex cluster, use the respective commands:
+To connect to either the [TinyGPU](https://hpc.fau.de/systems-services/documentation-instructions/clusters/tinygpu-cluster/) or [Alex cluster](https://hpc.fau.de/systems-services/documentation-instructions/clusters/alex-cluster/), use the respective commands:
 ```bash
 ssh USERNAME@tinyx.nhr.fau.de
 ssh USERNAME@alex.nhr.fau.de
@@ -63,7 +63,7 @@ Remember, successful data management and transfer are vital aspects of working e
 
 ## Configuring [Anaconda](https://www.anaconda.com/) Environment on HPC
 
-Anaconda distributions are conveniently pre-installed as modules on HPC. To set up your Anaconda environment, follow the steps below:
+Anaconda distributions are conveniently pre-installed as modules on HPC. To set up your [Anaconda](https://www.anaconda.com/) environment, follow the steps below:
 
 1. **List available Python modules:**
 Use the command `module avail python` to display the Python modules available for use.
@@ -96,11 +96,11 @@ We also have an illustrative example of a bash script in the project's repositor
 
 To submit a job to the Alex cluster or TinyGPU, use the respective commands:
 
-Alex cluster:
+[Alex cluster](https://hpc.fau.de/systems-services/documentation-instructions/clusters/alex-cluster/):
 ```bash
 sbatch test.sh
 ```
-TinyGPU:
+[TinyGPU](https://hpc.fau.de/systems-services/documentation-instructions/clusters/tinygpu-cluster/):
 ```bash
 sbatch.tinygpu test.sh
 ```
