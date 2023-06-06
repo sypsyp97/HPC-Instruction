@@ -29,8 +29,7 @@ To exit the SSH connection, use `Ctrl+D`.
 ## File systems & data transfer
 
 All clusters use Linux operating systems. The standard directory at login is called `$HOME`. Here you can store important files e.g. your python script. You can store larger files at `$WORK`.
-For copying data from your local machine to the cluster, you can use scp or [WinSCP](https://winscp.net/eng/download.php).
-Check available GB using: `shownicerquota.pl`
+For copying data from your local machine to the cluster, you can use scp or [WinSCP](https://winscp.net/eng/download.php) on Windows. If you are using a MAC, yo can use [Cyberduck](https://cyberduck.io/).
 
 ---
 
