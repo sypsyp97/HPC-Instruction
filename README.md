@@ -1,4 +1,4 @@
-# FAU-HPC-Instruction
+# HPC-Instruction
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=plastic)](https://opensource.org/licenses/Apache-2.0)
 [![Contributions](https://img.shields.io/badge/Contributions-Contact%20Maintainer-yellow?style=plastic&logo=github&logoColor=white)](https://github.com/sypsyp97/FAU-HPC-Instruction/issues)
