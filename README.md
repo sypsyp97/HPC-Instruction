@@ -86,6 +86,7 @@ pip install tensorflow==2.9.2
 
 In your bash script, you may need to add the line `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/` after activating the environment.
 
+---
 
 ## Bash script
 
@@ -170,6 +171,8 @@ This project is licensed under [Apache-2.0 License](LICENSE).
 ## Acknowledgments
 
 This repository is based on the work of Marion Dörrich from [ANKI LAB](https://anki.xyz/), her efforts are greatly appreciated.
+
+---
 
 ## Contact
 
