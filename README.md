@@ -170,7 +170,7 @@ This project is licensed under [Apache-2.0 License](LICENSE).
 
 ## Acknowledgments
 
-This repository is based on the work of Marion Dörrich from [ANKI LAB](https://anki.xyz/), her efforts are greatly appreciated.
+This repository is based on the work of Marion Dörrich from [ANKI LAB](https://anki.xyz/) and the resources form [NHR](https://hpc.fau.de/).
 
 ---
 
