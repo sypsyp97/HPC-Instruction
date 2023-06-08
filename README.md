@@ -1,7 +1,7 @@
 # HPC-Instruction
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=plastic)](https://opensource.org/licenses/Apache-2.0)
-[![Contributions](https://img.shields.io/badge/Contributions-Contact%20Maintainer-yellow?style=plastic&logo=github&logoColor=white)](https://github.com/sypsyp97/FAU-HPC-Instruction/issues)
+[![Contributions](https://img.shields.io/badge/Contributions-Contact%20Maintainer-yellow?style=plastic&logo=github&logoColor=white)](https://github.com/sypsyp97/HPC-Instruction/issues)
 [![Latest Commit](https://img.shields.io/github/last-commit/sypsyp97/HPC-Instruction?style=plastic&logo=github&logoColor=white&color=blueviolet&label=Latest%20Commit)](https://github.com/sypsyp97/HPC-Instruction/commits/main)
 
 Welcome to the HPC-Instruction repository. 
