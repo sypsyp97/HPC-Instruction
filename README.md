@@ -171,7 +171,7 @@ This project is licensed under [Apache-2.0 License](LICENSE).
 
 ## Acknowledgments
 
-This repository is based on the work of Marion Dörrich from [ANKI LAB](https://anki.xyz/) and the resources form [Erlangen National High Performance Computing Center (NHR@FAU)](https://hpc.fau.de/).
+This repository is based on the work of [Marion Dörrich](https://github.com/marionXYZ) from [ANKI LAB](https://anki.xyz/) and the resources form [Erlangen National High Performance Computing Center (NHR@FAU)](https://hpc.fau.de/).
 
 ---
 
